@@ -10,3 +10,14 @@
 - Поддержка: `.mp3`, `.wav`, `.m4a`, `.mp4`, `.ogg`, `.flac`
 - Результат — `.txt` в папке `output/`
 
+## Структура
+transcribe_audio/
+├── transcribe_audio.py
+├── input/ # аудиофайлы (создаётся автоматически)
+├── output/ # результаты .txt (создаётся автоматически)
+├── models/
+  └── faster-whisper-base/ # модель (см. ниже)
+  ├── model.bin
+  ├── config.json
+  ├── tokenizer.json
+  └── vocabulary.txt
