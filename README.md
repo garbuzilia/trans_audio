@@ -16,8 +16,8 @@ transcribe_audio/
 ├── input/ # аудиофайлы (создаётся автоматически)
 ├── output/ # результаты .txt (создаётся автоматически)
 ├── models/
-  └── faster-whisper-base/ # модель (см. ниже)
-  ├── model.bin
-  ├── config.json
-  ├── tokenizer.json
-  └── vocabulary.txt
+│ └── faster-whisper-base/ # модель (см. ниже)
+│ ├── model.bin
+│ ├── config.json
+│ ├── tokenizer.json
+│ └── vocabulary.txt
